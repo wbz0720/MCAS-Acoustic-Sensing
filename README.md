@@ -59,7 +59,13 @@ tqdm>=4.66.0
 
 ---
 
-## Data Format
+### Dataset Download
+
+Due to the large size of the datasets, we host them on Google Drive rather than including them in this repository. You can download the datasets from the following link:
+
+- **[Download Datasets (Google Drive)](https://drive.google.com/drive/folders/1-fMVZIKIy35SVEsZHxudmqyDOHV-Rn9i?usp=sharing)**
+
+After downloading, please organize the dataset files according to the directory structure described below and update the corresponding dataset paths in the configuration files.
 
 The code expects paired ultrasound sensing data stored in `.mat` files.
 
