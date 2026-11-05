@@ -1,3 +1,18 @@
+## MCAS: Signal-Processing-Based Multi-View Contrastive Learning for Acoustic Sensing
+
+This repository contains the implementation of our paper:
+
+**MCAS: Signal-Processing-Based Multi-View Contrastive Learning for Acoustic Sensing**, accepted to **NeurIPS 2026**.
+
+## About This Work
+
+We propose **MCAS**, a signal-processing-based multi-view contrastive learning framework for acoustic sensing. Unlike conventional contrastive learning methods that construct positive pairs through artificial data augmentations, MCAS exploits complementary signal-processing representations, namely **Doppler Frequency Spectrum (DFS)** and **Channel Impulse Response (CIR)**, extracted from the same acoustic event to construct structure-preserving positive pairs.
+
+To effectively capture the complementary information between these two views, MCAS introduces a **Hierarchical Shared-Token Fusion (HSTF)** module that enables progressive cross-view interaction throughout the dual-branch encoder. The framework further integrates global contrastive learning, stage-wise contrastive learning, and physical consistency learning to obtain discriminative and transferable acoustic representations.
+
+Extensive experiments demonstrate that MCAS achieves strong performance under limited-label settings, effective cross-task transferability, and robustness to signal corruption and noise.
+
+
 ## Overview
 
 This codebase supports the following experimental pipeline:
